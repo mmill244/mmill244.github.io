@@ -1,0 +1,33 @@
+/* got this from coolors.co - please improve!
+ https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
+*/
+
+body
+{
+	font-family: 'lucinda console';
+	color: #F06543 ;
+	background-color: #53131E;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+
+header, footer
+{
+	text-align: center;
+	color: ;
+	font-weight: bold;
+}
+
+h1, h2
+{
+	color: FFefbd;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+a
+{
+	text-decoration: none;
+	color: #DEC5E3;
+}
