@@ -4,9 +4,9 @@
 
 body
 {
-	font-family: 'lucinda console';
-	color: #F06543 ;
-	background-color: #53131E;
+	font-family: 'lucinda console', sans-serif;
+	color: #DEC5E3 ;
+	background-color: #6A0136;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -15,11 +15,11 @@ body
 header, footer
 {
 	text-align: center;
-	color: ;
+	color: #DEC5E3;
 	font-weight: bold;
 }
 
-h1, h2
+h1, h2, h3
 {
 	color: FFefbd;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -29,5 +29,13 @@ h1, h2
 a
 {
 	text-decoration: none;
-	color: #DEC5E3;
+	color: #70E4EF;
+}
+
+figure {
+	text-align: center;
+}
+
+nav {
+	text-align: center;
 }
