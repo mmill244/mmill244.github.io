@@ -1,0 +1,75 @@
+/* got this from coolors.co - please improve!
+ https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
+*/
+
+body
+{
+	font-family: 'lucinda console', sans-serif;
+	color: white;
+	background-color: #32746D;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+
+header, footer
+{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+h1, h2
+{
+	color: #c9f299;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+h3 {
+	color: #c9f299;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: left;
+}
+
+
+a
+{
+	text-decoration: none;
+	color: #70E4EF;
+}
+
+figure {
+	text-align: center;
+	margin: 0;
+}
+
+figcaption {
+
+}
+
+nav {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0;
+}
+
+thead {
+	background-color:#523249;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: middle;
+	vertical-align: middle;
+}
+
+tbody{
+	text-align: center;
+	background-color: #724565;
+}
+
