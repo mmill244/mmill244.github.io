@@ -64,8 +64,8 @@ thead {
 th, td {
 	border: 1px solid black;
 	padding: .2em 1em .2em .5em;
-	text-align: middle;
-	vertical-align: middle;
+	text-align: center;
+	vertical-align: center;
 }
 
 tbody{
