@@ -45,7 +45,9 @@ figure {
 }
 
 figcaption {
-
+	text-align: left;
+	margin: 0;
+	color: #c9f299
 }
 
 nav {
@@ -71,5 +73,9 @@ th, td {
 tbody{
 	text-align: center;
 	background-color: #724565;
+}
+
+tbody tr:nth-child(odd) td {
+	background-color: #8f547e;
 }
 
