@@ -17,13 +17,33 @@ header, footer
 	text-align: center;
 	color: #DEC5E3;
 	font-weight: bold;
+	font-size: 16px;
 }
 
-h1, h2, h3
+h1, h2
 {
 	color: #f18b5b;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
+	font-size: 22px;
+}
+
+h3 {
+	color: #f18b5b;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: left;
+	font-size: 22px;
+}
+
+p1 {
+	text-align: left;
+	color: #DEC5E3;
+	font-size: 18px;
+}
+
+ul {
+	text-align: left;
+	color:#DEC5E3
 }
 
 a
@@ -38,4 +58,38 @@ figure {
 
 nav {
 	text-align: center;
+}
+
+/* for activity 2 */
+.submit_button {
+    background-color: #ff8cd3;
+    color: #ffffff;
+}
+
+input[type='radio'] {
+    background-color: #ff8cd3;
+}
+input[type='text'] {
+    background-color: rgb(230, 212, 241);
+    width: 200px;
+    padding: 4px 4px;
+    margin: 3px 0;
+}
+
+input[type='tel'] {
+    background-color: rgb(230, 212, 241);
+    width: 169px;
+    padding: 4px 4px;
+    margin: 3px 0;
+}
+
+input[type='email'] {
+    background-color: rgb(230, 212, 241);
+    width: 237px;
+    padding: 4px 4px;
+    margin: 3px 0;
+}
+
+input[type='radio'] {
+    margin: 3px 0;
 }
