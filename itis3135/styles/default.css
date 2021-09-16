@@ -28,7 +28,7 @@ h1, h2, h3
 	font-size: 22px;
 }
 
-.h3 {
+.a1 {
 	color: #f18b5b;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: left;
@@ -36,7 +36,7 @@ h1, h2, h3
 }
 
 .p1 {
-	text-align: left;
+	text-align: center;
 	color: #DEC5E3;
 	font-size: 18px;
 }
