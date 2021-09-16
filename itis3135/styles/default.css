@@ -41,6 +41,12 @@ h1, h2, h3
 	font-size: 18px;
 }
 
+.a2{
+	text-align: center;
+}
+.h2{
+	text-align: left;
+}
 
 ul {
 	text-align: left;
