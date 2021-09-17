@@ -1,0 +1,36 @@
+head {}
+
+body {
+    font-family: 'papyrus';
+    color: black;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Comic Sans';
+    margin-bottom: 40px;
+}
+
+h2{
+    font-family: Times, serif;
+    background-color: aquamarine;
+    text-decoration: underline overline;
+}
+
+ul {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.border {
+    border-style: ridge groove outset dashed;
+}
