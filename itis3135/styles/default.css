@@ -20,19 +20,12 @@ header, footer
 	font-size: 16px;
 }
 
-h1, h3
+h1, h2, h3
 {
 	color: #f18b5b;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 	font-size: 22px;
-}
-
-h2 {
-	color: #f18b5b;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	text-align: center;
-	font-size: 28px;
 }
 
 .a1 {
@@ -73,6 +66,16 @@ figure {
 
 nav {
 	text-align: center;
+}
+
+.center_big_font {
+	text-align: center;
+	font-size: 28px;
+}
+
+.center_small_font {
+	text-align: center;
+	font-size: 15px;
 }
 
 /* for activity 2 */
