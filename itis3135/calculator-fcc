@@ -23,7 +23,7 @@
         
         <div class="calculator-grid">
             <div class="output">
-                <div class="calculator-display">0</div>
+                <div class="calculator-display"></div>
 
                 <div class="calculator_keys">
                     <button class="span-two">AC</button>
