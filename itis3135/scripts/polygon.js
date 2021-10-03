@@ -5,7 +5,6 @@ var numSides = 0;
 
 function mascot() {
     var userName = prompt("Enter your name");
-    //entry = prompt("Please pick a whole number between 0 and 10");
     document.getElementById("mascot").innerHTML = "The " + brandName + " welcomes you, " + userName + "!";
 }
 
@@ -32,6 +31,7 @@ function validateEntry(entry) {
     }
     return numSides;
 }
+
 //this function will return the name of the polygon that has the passed in number of sides
 function getShape(numberOfSides) {
     var numberTested = validateEntry(numberOfSides)
@@ -71,6 +71,5 @@ function getShape(numberOfSides) {
             result = "decagon";
             break;
     } 
-    //return result;
     document.getElementById("getShape").innerHTML = " Your validated number is " + numSides + ", your shape is " + result;     
 }
