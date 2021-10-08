@@ -8,7 +8,8 @@ addSalary(person)
         alert("Entry is invalid")
     } else {
         people.push(person)
-        var salaryInput = prompt("Assign a salary to employee")
+        var input = prompt("Assign a salary to employee")
+        var salaryInput = parseInteger(input, 10)
         if (salaryInput.isInteger())
         {
             salary.push(salaryInput)
