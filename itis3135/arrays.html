@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="styles/default.css" rel="stylesheet" type="text/css">
-    <script src="scripts/arrays.js"></script>
+    <script src="scripts/array-activity.js"></script>
     <title>Madison Miller, ITIS3135, Arrays - Activity #8</title>
 </head>
 
@@ -32,6 +32,8 @@
     <a href="name-the-polygon.html">Polygon</a>
     ||
     <a href="calculator-wds.html">Calculator</a>
+    ||
+    <a href="arrays.html">Arrays</a>
   </nav>
 
   <br>
@@ -43,36 +45,31 @@
     <label for="employee">Select an Employee Name</label>
     <select name="employee" id="employee">
         <option value="--">--</option>
-        <option onclick="addSalary('Norville Rogers')" value="Norville Rogers">Norville Rogers</option>
-        <option onclick="addSalary('Marcie Fleach')" value="Marcie Fleach">Marcie Fleach</option>
-        <option onclick="addSalary('Sally McKnight')" value="Sally McKnight">Sally McKnight</option>
-        <option onclick="addSalary('Sarah Ravencroft')" value="Sarah Ravencroft">Sarah Ravencroft</option>
-        <option onclick="addSalary('Peggy Jones')" value="Peggy Jones">Peggy Jones</option>
-        <option onclick="addSalary('Daisy Blake')" value="Daisy Blake">Daisy Blake</option>
-        <option onclick="addSalary('Bill McLemore')" value="Bill McLemore">Bill McLemore</option>
+        <option value="Norville Rogers">Norville Rogers</option>
+        <option value="Marcie Fleach">Marcie Fleach</option>
+        <option value="Sally McKnight">Sally McKnight</option>
+        <option value="Sarah Ravencroft">Sarah Ravencroft</option>
+        <option value="Peggy Jones">Peggy Jones</option>
+        <option value="Daisy Blake">Daisy Blake</option>
+        <option value="Bill McLemore">Bill McLemore</option>
     </select>
     <p id="employeeResults"></p>
+
+    <p>Click the button below to add salary. This first salary put in will be for the first person in the drop down selection and so on</p>
+    <button onclick="addSalary()">Click me</button>
+    <p id="addSalary"></p>
     
     <p>Click the button below to display results</p>
     <button onclick="displayResults()">Click me</button>
     <p id="results"></p><br>
 
+    <p>Click the button below to display salary</p>
+    <button onclick="displaySalary()">Click me</button>
+    <p id="displaySalary"></p>
 
-    <div id="results">
-        <h2>Results of displayResults()</h2>
-        <button onclick="displayResults()">Click me to display average</button>
-        <p id="results"></p>
-    </div>
 
-    <h3>Employee Data in Table</h3>
-    <table id="results_table">
-        <thead>
-            <tr>
-                <th id="name">Name</th>
-                <th id="salary">Salary</th>
-            </tr>
-        </thead>
-    </table>
+    <h3 class="table-heading">Employee Data in Table</h3>
+    <table id="results_table"></table><br>
   </main>
 
 
