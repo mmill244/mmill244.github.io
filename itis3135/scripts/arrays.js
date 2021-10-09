@@ -76,4 +76,3 @@ let select = document.querySelector("employee")
 let result = document.querySelector("results")
 select.addEventListener('click', addSalary())
 
-document.getElementById("employee").addEventListener("click", ?)
