@@ -98,4 +98,8 @@ abbr {
   cursor: pointer;
 }
 
+a {
+  text-align: center;
+}
+
 
