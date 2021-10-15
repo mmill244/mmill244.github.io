@@ -85,6 +85,8 @@ abbr {
 /* whitespace */
 .whitespace {
   padding: 10px;
+  background-color: white;
+  text-align: center;
 }
 
 .whitespace2 {
@@ -103,3 +105,6 @@ a {
 }
 
 
+main {
+  text-align: center;
+}
