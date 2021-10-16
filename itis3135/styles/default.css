@@ -22,7 +22,7 @@ header, footer
 
 h1, h2, h3
 {
-	color: #f18b5b;
+	color: #fcf3bf;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 	font-size: 22px;
@@ -76,6 +76,14 @@ nav {
 .center_small_font {
 	text-align: center;
 	font-size: 15px;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.blue-heading {
+    color:#f18b5b;
 }
 
 /* for activity 2 */
