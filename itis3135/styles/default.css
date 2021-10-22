@@ -212,4 +212,24 @@ tbody tr:nth-child(odd) td {
     text-align: left;
 }
 
+/* For Activity 9 */
+#slides img {
+    height: 250px;
+    display: none;
+}
+
+li {
+    display: inline;
+}
+
+#image-list {
+    padding-right: 10px;
+    float: left;
+    height: 10%;
+    width: 20%;
+}
+
+.padding {
+    padding-left: 15px;
+}
 
