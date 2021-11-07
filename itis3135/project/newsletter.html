@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="styles/project.css" rel="stylesheet" type="text/css">
+        <title>Women In STEM</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Women In STEM</h1>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            
+            <a href="about.html">About Us</a>
+            
+            
+            
+            <a href="careers.html">STEM Careers</a>
+           
+            <a href="facts.html">Facts</a>
+            
+            <a href="newsletter.html">Join Our Newsletter</a>
+        </nav>
+
+        <main>
+            <h2>Join Our Newsletter!</h2>
+
+            <p>Join our newsletter to get updates on events, STEM related news, and all other happenings!</p>
+
+            <form action="#">
+                <p>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name" required><br>
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" size="9"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email@email.com">
+                </p>
+                <p>
+                    <!--Radio Button-->
+                    <label>How would you like to receive the newsletter?</label><br>
+                    <input type="radio" id="emailMethod" name="newsletterMethod" value="Newsletter Method" class="text" required>
+                    <label for="emailMethod">Email</label><br>
+                    <input type="radio" id="textMethod" name="textMethod" value="newsletterMethod" class="text" required>
+                    <label for="textMethod">Text Message</label>
+                </p>
+                <p>
+                    <!--Select Box-->
+                    <label for="letterFrequency">How often would you like to receive our newsletter?</label>
+                    <select name="letterFrequency" id="letterFrequency">
+                        <option value="--">--</option>
+                        <option value="weekly">Once a week</option>
+                        <option value="semiWeekly">Every other week</option>
+                        <option value="monthly">Once a month</option>
+                        <option value="semiMonthly">Every other month</option>
+                    </select>
+                </p>
+                <p>
+                    <!--Checkboxes-->
+                    <label>What topics are you interested in seeing in your newsletter?</label><br>
+                    <input type="checkbox" id="articles" name="articles" value="STEM Articles">
+                    <label for="articles">STEM Articles</label><br>
+                    <input type="checkbox" id="events" name="events" value="Upcoming Events">
+                    <label for="events">Upcoming Events</label><br>
+                    <input type="checkbox" id="speakers" name="speakers" value="Guest Speakers">
+                    <label for="speakers">Guest Speakers</label><br>
+                </p>
+                <p>
+                    <!--Submit Button-->
+                    <label>Click the "Submit" button below to send in your response!</label><br>
+                    <input type="submit" value="Submit" class="submit_button">
+                </p>
+            </form>
+        </main>
+
+
+        <footer>
+            <p>Contact us by email at womeninstem@gmail.com or by phone at 555-555-5555</p>
+        </footer>
+    </body>
+</html>
