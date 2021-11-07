@@ -1,0 +1,60 @@
+/* for pictures: https://unsplash.com/collections/i-rL334Ajt8/women%2Fgirls-in-stem */
+
+body { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(185, 9, 141);
+    background-color: rgb(255, 205, 240);
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+header, footer {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(185, 9, 141);
+}
+
+nav {
+    text-align: center;
+    color: white;
+    background-color: rgb(185, 9, 141)
+}
+
+a {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    float:left;
+}
+
+figcaption {
+    text-align: center;
+}
