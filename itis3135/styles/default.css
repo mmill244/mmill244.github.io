@@ -51,11 +51,14 @@ h1, h2, h3
 
 ul {
 	text-align: left;
-	color:#DEC5E3
+	color:#DEC5E3;
 }
 
-a
-{
+li {
+    display: inline;
+}
+
+a {
 	text-decoration: none;
 	color: #70E4EF;
 }
@@ -231,5 +234,9 @@ li {
 
 .padding {
     padding-left: 15px;
+}
+
+#horizontal {
+    display: inline;
 }
 
